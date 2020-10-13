@@ -13,7 +13,7 @@ body {
 .game_board {
     display: flex;
     background-color: #b4bbbb;
-    padding: 30px 30px 10px 10px;
+    padding: 30px 30px 10px 15px;
 
 }
 
@@ -36,10 +36,48 @@ body {
     background-color: White;
     width: 70px;
     height: 70px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .black {
     background-color: black;
     width: 70px;
     height: 70px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.white_perch {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: solid 1px #000;
+    box-shadow: 3px 3px #fff;
+
+}
+
+.black_perch {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+
+    background-color: black;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: solid 1px #fff;
+    box-shadow: 3px 3px #000;
+
 }
