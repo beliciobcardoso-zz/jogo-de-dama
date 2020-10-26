@@ -9,188 +9,19 @@
 </head>
 
 <body>
-    <div class="game_board">
-
-        <div class="column">
-            <div class="idline">8</div>
-            <div class="idline">7</div>
-            <div class="idline">6</div>
-            <div class="idline">5</div>
-            <div class="idline">4</div>
-            <div class="idline">3</div>
-            <div class="idline">2</div>
-            <div class="idline">1</div>
-        </div>
-
-        <div class="column">
-            <div class="black">
-                <div class="white_perch" id="white_perch_1">1</div>
-            </div>
-            <div class="White"></div>
-            <div class="black">
-                <div class="white_perch" id="white_perch_9">9</div>
-            </div>
-            <div class="White"></div>
-            <div class="black"></div>
-            <div class="White"></div>
-            <div class="black">
-                <div class="black_perch" id="black_perch_5">5</div>
-            </div>
-            <div class="White"></div>
-
-            <div class="idcolumn">A</div>
-        </div>
-
-        <div class="column">
-
-            <div class="White"></div>
-            <div class="black">
-                <div class="white_perch" id="white_perch_5">5</div>
-            </div>
-            <div class="White"></div>
-            <div class="black"></div>
-            <div class="White"></div>
-            <div class="black">
-                <div class="black_perch" id="black_perch_9">9</div>
-            </div>
-            <div class="White"></div>
-            <div class="black">
-                <div class="black_perch" id="black_perch_1">1</div>
-            </div>
-
-            <div class="idcolumn">B</div>
-        </div>
-
-        <div class="column">
-
-            <div class="black">
-                <div class="white_perch" id="white_perch_2">2</div>
-            </div>
-            <div class="White"></div>
-            <div class="black">
-                <div class="white_perch" id="white_perch_10">10</div>
-            </div>
-            <div class="White"></div>
-            <div class="black"></div>
-            <div class="White"></div>
-            <div class="black">
-                <div class="black_perch" id="black_perch_6">6</div>
-            </div>
-
-            <div class="White">
-
-            </div>
-            <div class="idcolumn">C</div>
-        </div>
-
-        <div class="column">
-
-            <div class="White"></div>
-            <div class="black">
-                <div class="white_perch" id="white_perch_6">6</div>
-            </div>
-            <div class="White"></div>
-            <div class="black"></div>
-            <div class="White"></div>
-            <div class="black">
-                <div class="black_perch" id="black_perch_10">10</div>
-            </div>
-            <div class="White"></div>
-            <div class="black">
-                <div class="black_perch" id="black_perch_2">2</div>
-            </div>
-
-            <div class="idcolumn">D</div>
-        </div>
-
-        <div class="column">
-
-            <div class="black">
-                <div class="white_perch" id="white_perch_3">3</div>
-            </div>
-            <div class="White"></div>
-            <div class="black">
-                <div class="white_perch" id="white_perch_11">11</div>
-            </div>
-            <div class="White"></div>
-            <div class="black"></div>
-            <div class="White"></div>
-            <div class="black">
-                <div class="black_perch" id="black_perch_7">7</div>
-            </div>
-            <div class="White">
-
-            </div>
-
-            <div class="idcolumn">E</div>
-        </div>
-
-        <div class="column">
-
-            <div class="White"></div>
-            <div class="black">
-                <div class="white_perch" id="white_perch_7">7</div>
-            </div>
-            <div class="White"></div>
-            <div class="black"></div>
-            <div class="White"></div>
-            <div class="black">
-                <div class="black_perch" id="black_perch_11">11</div>
-            </div>
-            <div class="White">
-
-            </div>
-            <div class="black">
-                <div class="black_perch" id="black_perch_3">3</div>
-            </div>
-
-            <div class="idcolumn">F</div>
-        </div>
-
-        <div class="column">
-
-            <div class="black">
-                <div class="white_perch" id="white_perch_4">4</div>
-            </div>
-            <div class="White"></div>
-            <div class="black">
-                <div class="white_perch" id="white_perch_12">12</div>
-            </div>
-            <div class="White"></div>
-            <div class="black"></div>
-            <div class="White"></div>
-            <div class="black">
-                <div class="black_perch" id="black_perch_8">8</div>
-            </div>
-            <div class="White"></div>
-
-            <div class="idcolumn">G</div>
-        </div>
-
-        <div class="column">
-
-            <div class="White"></div>
-            <div class="black">
-                <div class="white_perch" id="white_perch_8">8</div>
-            </div>
-            <div class="White"></div>
-            <div class="black"></div>
-            <div class="White"></div>
-            <div class="black">
-                <div class="black_perch" id="black_perch_12">12</div>
-            </div>
-            <div class="White">
-
-            </div>
-            <div class="black">
-                <div class="black_perch" id="black_perch_4">4</div>
-            </div>
-
-            <div class="idcolumn">H</div>
+    <div class="container">
+        <div id="game_board" class="game_board"></div>
+        <div id="info">
+            <ul>
+                <li>Pontuação pretas:<span id="info_pontos_pretas" /></li>
+                <li>Pontuação brancas:<span id="info_pontos_brancas" /></li>
+                <li>Casa selecionada: <span id="info_casa_selecionada" /></li>
+                <li>Peca selecionada: <span id="info_peca_selecionada" /></li>
+            </ul>
         </div>
     </div>
 
-
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
     <script src="./js/main.js"></script>
 </body>
 

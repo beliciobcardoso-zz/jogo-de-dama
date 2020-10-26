@@ -10,6 +10,15 @@ body {
     margin: 5px;
 }
 
+.container {
+    display: flex;
+
+}
+
+#info {
+    padding-left: 20px;
+}
+
 .game_board {
     display: flex;
     background-color: #b4bbbb;
@@ -32,52 +41,25 @@ body {
     height: 70px;
 }
 
-.White {
-    background-color: White;
+.home_white {
+    background-color: #fff;
+    width: 70px;
+    height: 70px;
+}
+
+.home_black {
+    background-color: #000;
     width: 70px;
     height: 70px;
 
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.black {
-    background-color: #868686;
-    width: 70px;
-    height: 70px;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    cursor: pointer;
 
 }
 
-.white_perch {
-    display: flex;
-    align-items: center;
-    justify-content: center;
 
-    background-color: #ffee8e;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    border: solid 2px #000;
-    box-shadow: 1px 2px #ffee8e;
-
-}
-
-.black_perch {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
-
-    background-color: black;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    border: solid 2px #fff;
-    box-shadow: 1px 2px #000;
-
+.home_select {
+    background-color: #FF0000;
 }
